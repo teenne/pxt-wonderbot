@@ -1,0 +1,19 @@
+{
+    "name": "wonderbot",
+    "version": "0.1.0",
+    "description": "Drive Wonder Workshop Dash and Cue robots from micro:bit blocks, through the wonderbot gateway on a Raspberry Pi",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
