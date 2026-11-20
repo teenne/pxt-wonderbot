@@ -38,5 +38,6 @@ ignored by the Pi, but the Pi's answers are read by these blocks.
 
 ## Note
 
-Not affiliated with or endorsed by Wonder Workshop. Dash, Cue and Dot are their trademarks. These blocks are copied
-from `makecode/` in the wonderbot repo, where they are developed; change them there and copy them here.
+Not affiliated with or endorsed by Wonder Workshop. Dash, Cue and Dot are their trademarks. The blocks are developed
+here. After a change: raise the version in `pxt.json` and tag a GitHub release `vX.Y.Z` (MakeCode loads the newest
+release). If the serial protocol changes, change `src/wonderbot/microbit.py` in wonderbot in step.
